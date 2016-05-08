@@ -1,0 +1,19 @@
+body{
+  font-size: 10px;
+  background: #2693a0;
+}
+
+
+.nome{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14em;
+  line-height: 0.8em;
+  color: #fff;
+  margin-top: 1em;
+}
+
+.job{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  color: #dedede;
+}
