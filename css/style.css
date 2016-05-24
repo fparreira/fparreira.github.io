@@ -9,11 +9,11 @@ body{
 .nome{
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
-  font-size: 12em;
+  font-size: 8em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   line-height: 0.8em;
   color: #fff;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .job{
@@ -25,5 +25,6 @@ body{
 }
 
 a .fa{
-  color: #ffee9e;
+  color: #fff;
+  padding-left: 8px;
 }
