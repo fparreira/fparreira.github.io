@@ -7,7 +7,7 @@
 
     base.init = function (options) {
 
-      base.options = $.extend({}, $.fn.randomColor.defaults, options);
+      base.options = $.extend({}, $.fn.randombg.defaults, options);
 
       var hexa = Math.floor(Math.random() * 16777215).toString(16);
       var colorHexa = '#' + (hexa.length !== 6 ? base.options.color : hexa);
@@ -23,7 +23,7 @@
 
   }
 
-  $.fn.randomColor.defaults = {
+  $.fn.randombg.defaults = {
     color: '0c5672'
   }
 
