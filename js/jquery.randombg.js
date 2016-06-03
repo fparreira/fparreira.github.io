@@ -1,6 +1,6 @@
 // closure
 (function($){
-  $.fn.randomColor = function (options) {
+  $.fn.randombg = function (options) {
 
     var base = $(this);
     base.options = options;
